@@ -19,7 +19,7 @@ Brute force a MySQL user using a wordlist file.
     ./mysql -h <host> -u <username> -f <wordlist_file> [-t <num_threads>] [-p <port>] [-v]
 
 
-*host* can be localhost (fastest), a hostname, or an IP address.
+`<host>` can be localhost (fastest), a hostname, or an IP address.
 
 There are many wordlists available e.g. [Daniel Miessler's](https://github.com/danielmiessler/SecLists/tree/master/Passwords).
 
@@ -27,7 +27,7 @@ There are many wordlists available e.g. [Daniel Miessler's](https://github.com/d
 
 20 threads appears to be optimal on 4-thread CPUs.
 
-`-v` and `-vv` can be used for verbose output.
+`-v` and `-vv` can be used for verbosity output.
 
 
 ## Remote MySQL Connections
@@ -45,7 +45,6 @@ See [MySQL-Brute docs](https://github.com/Tinram/MySQL-Brute/blob/master/README.
 ## Authors
 
 + 0x0mar (original)
-
 + Tinram (v. 0.02)
 
 
