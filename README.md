@@ -16,7 +16,7 @@ Brute force a MySQL user using a wordlist file.
 
 ## Usage
 
-    ./mysql -h <host> -u <username> -f <wordlist_file> [-t <num_threads>] [-p <port>] [-v]
+    ./mysql-bruteforce -h <host> -u <username> -f <wordlist_file> [-t <num_threads>] [-p <port>] [-v]
 
 
 `<host>` can be localhost (fastest), a hostname, or an IP address.
