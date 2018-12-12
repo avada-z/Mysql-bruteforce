@@ -16,8 +16,9 @@ Brute force a MySQL user using a wordlist file.
 
 ## Usage
 
+```bash
     ./mysql-bruteforce -h <host> -u <username> -f <wordlist_file> [-t <num_threads>] [-p <port>] [-v]
-
+```
 
 `<host>` can be localhost (fastest), a hostname, or an IP address.
 
@@ -37,7 +38,9 @@ See [MySQL-Brute docs](https://github.com/Tinram/MySQL-Brute/blob/master/README.
 
 ## Build
 
-        make
+```bash
+    make
+```
 
 (See [MySQL-Brute docs](https://github.com/Tinram/MySQL-Brute/blob/master/README.md) for *libmysql* requirements.)
 
