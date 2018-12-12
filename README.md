@@ -36,21 +36,29 @@ There are many wordlists available e.g. [Daniel Miessler's](https://github.com/d
 See [MySQL-Brute docs](https://github.com/Tinram/MySQL-Brute/blob/master/README.md).
 
 
-## Build
-
-```bash
-    make
-```
-
-(See [MySQL-Brute docs](https://github.com/Tinram/MySQL-Brute/blob/master/README.md) for *libmysql* requirements.)
-
-
 ## Executables
 
 + x86 64-bit
 + x86 32-bit
 
 Download from [Releases](https://github.com/Tinram/Mysql-bruteforce/releases/latest).
+
+
+## Build
+
+If *libmysqlclient-dev* is not installed:
+
+```bash
+    make deps && make && make install
+```
+
+else:
+
+```bash
+    make && make install
+```
+
+(See [MySQL-Brute docs](https://github.com/Tinram/MySQL-Brute/blob/master/README.md) for *libmysql* requirements.)
 
 
 ## Authors
