@@ -6,7 +6,16 @@
 
 ## Purpose
 
-Brute force a MySQL user using a wordlist file.
+Brute-force a MySQL user using a wordlist file.
+
+This fork is a revised version of 0x0mar's fast brute-force program.
+
+Main revisions are:
+
++ Easier command-line usage,
++ Adaptability in parsing wordlist formats,
++ Thread number default assigned from CPU info,
++ Progress counter and stats displayed.
 
 
 ## OS
