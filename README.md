@@ -3,6 +3,7 @@
 
 ### MySQL multi-threaded brute-forcer.
 
+cp libmysqlclient.so.20 to /usr/lib/ before running the release!
 
 ## Purpose
 
