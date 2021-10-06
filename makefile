@@ -2,7 +2,7 @@
 # makefile for Mysql-bruteforce
 
 CC = gcc
-CFLAGS = -Ofast -Wall -Wextra -Wuninitialized -Wunused -Werror -std=gnu99 -s
+CFLAGS = -Ofast -Wall -Wextra -Wuninitialized -Wunused -Werror -std=gnu99 -s -lpthread
 NAME = mysql
 OUTPUT_NAME = mysql-bruteforce
 
