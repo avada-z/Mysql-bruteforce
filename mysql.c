@@ -116,7 +116,7 @@ void *search(void *p) {
 		}
 
 		if (konnect(a->host, user, pass, a->port)) {
-			printf("\n\nfound!\nusername: %s\npassword: %s\n", user, pass);
+			printf("bruteforced! username: %s password: %s", user, pass);
 			passwordFound = 1;
 			goto free;
 		}
